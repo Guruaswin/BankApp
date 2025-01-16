@@ -1,0 +1,10 @@
+{
+  "name": "bank-db",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \" npm run start --prefix backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
